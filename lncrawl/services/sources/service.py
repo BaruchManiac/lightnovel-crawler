@@ -217,14 +217,20 @@ class Sources:
         for url in crawler.base_url:
             if self._signal.is_set():
                 return
-            self.add_source(url, info, tier)
+            self.add_source(url, info, tier, getattr(crawler, "updated_at", None))
 
-    def add_source(self, url: str, info: CrawlerInfo, tier: str = LEGACY):
-        item = create_source_item(url, info, self.rejected, tier)
+    def add_source(
+        self,
+        url: str,
+        info: CrawlerInfo,
+        tier: str = LEGACY,
+        updated_at: Optional[int] = None,
+    ):
+        item = create_source_item(url, info, self.rejected, tier, updated_at)
 
         # Tier first, version only within a tier. Comparing versions alone would let a legacy
-        # crawler re-downloaded by the sync outrank the spec meant to replace it, because its
-        # version is a timestamp and the download refreshes it.
+        # crawler re-downloaded by the sync outrank the spec meant to replace it: a legacy
+        # version is a file timestamp and the download refreshes it.
         existing = self.sources.get(item.domain)
         if existing is not None and not outranks(
             item.tier, item.version, existing.tier, existing.version

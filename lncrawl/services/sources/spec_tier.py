@@ -139,14 +139,19 @@ def build_crawler(spec: Any, root: Path, host: str, path: Path) -> Type[Crawler]
     SpecCrawler.__name__ = f"Spec_{host.replace('.', '_').replace('-', '_')}"
     SpecCrawler.__qualname__ = SpecCrawler.__name__
 
-    # The registry expects what `extract_crawlers` sets on an imported .py crawler. A spec is
-    # not imported, so they are set here rather than discovered.
     setattr(SpecCrawler, "__id__", hashlib.md5(f"spec:{host}".encode()).hexdigest())
     setattr(SpecCrawler, "__file__", str(path))
-    # An integer, because the index casts it. A content digest arrives with the manifest, and
-    # the value stamped on stored content is already normalised to a string in core/tiers.py.
-    setattr(SpecCrawler, "version", _mtime(path))
+    setattr(SpecCrawler, "version", _content_version(path))
+    setattr(SpecCrawler, "updated_at", _mtime(path))
     return SpecCrawler
+
+
+def _content_version(path: Path) -> int:
+    try:
+        digest = hashlib.md5(path.read_bytes()).hexdigest()
+    except OSError:  # pragma: no cover - the registry just read this file
+        return 0
+    return int(digest[:8], 16)
 
 
 def _mtime(path: Path) -> int:
