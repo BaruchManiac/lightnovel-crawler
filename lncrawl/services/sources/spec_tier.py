@@ -18,7 +18,7 @@ from __future__ import annotations
 import hashlib
 import logging
 from pathlib import Path
-from typing import Any, Dict, Iterable, List, Optional, Type
+from typing import Any, Dict, Iterable, List, Mapping, Optional, Type
 
 from ...core import Crawler
 from ...core.models import Chapter, Novel, SearchResult, Volume
@@ -26,7 +26,7 @@ from ...core.tiers import SPEC
 
 logger = logging.getLogger(__name__)
 
-__all__ = ["available", "load_specs", "to_novel"]
+__all__ = ["available", "load_specs", "to_novel", "unreadable"]
 
 
 def available() -> bool:
@@ -70,14 +70,32 @@ def to_novel(source: Any, novel: Novel) -> None:
             url=c.url,
             title=c.title,
             volume=c.volume,
-            **(c.extras or {}),
+            **_spreadable(c.extras),
         )
         for c in source.chapters
     ]
 
 
+#: The keyword arguments this module passes by name. An extra of the same name arrives as a second
+#: value for one parameter, which is a TypeError rather than an override — a spec that names a toc
+#: field `id` took the whole source down with
+#: `Chapter() got multiple values for keyword argument 'id'`.
+_SPREAD_RESERVED = ("id", "url", "title", "volume", "info")
+
+
+def _spreadable(extras: Optional[Mapping[str, Any]]) -> Dict[str, Any]:
+    """*extras* minus the names this module already passes.
+
+    Dropping rather than renaming: the field is still on the row the interpreter produced, and a
+    silent rename would put a chapter's `id` somewhere no reader would look for it.
+    """
+    return {k: v for k, v in (extras or {}).items() if k not in _SPREAD_RESERVED}
+
+
 def _search_results(rows: Iterable[Any]) -> List[SearchResult]:
-    return [SearchResult(title=r.title, url=r.url, info=r.info, **(r.extras or {})) for r in rows]
+    return [
+        SearchResult(title=r.title, url=r.url, info=r.info, **_spreadable(r.extras)) for r in rows
+    ]
 
 
 def build_crawler(spec: Any, root: Path, host: str, path: Path) -> Type[Crawler]:
@@ -180,12 +198,21 @@ def _as_source_chapter(chapter: Chapter) -> Any:
     )
 
 
+#: How many specs the last load could not read. Reported with the tier tally, because a spec that
+#: fails to load leaves its host on the legacy crawler and is otherwise indistinguishable from a
+#: host that never had a spec — which is how an interpreter one minor version too old hid 36 of
+#: them behind a per-file warning nobody reads.
+unreadable = 0
+
+
 def load_specs(root: Optional[Path]) -> Dict[str, Type[Crawler]]:
     """Every servable spec under *root*, as host -> Crawler subclass.
 
     Returns nothing at all when the interpreter is absent or the directory does not exist, so a
     checkout without either behaves exactly as it does today.
     """
+    global unreadable
+    unreadable = 0
     if root is None or not Path(root).is_dir():
         return {}
     if not available():
@@ -197,6 +224,7 @@ def load_specs(root: Optional[Path]) -> Dict[str, Type[Crawler]]:
     registry = Registry.load(Path(root))
     for path, reason in registry.problems:
         logger.warning(f"\\[{path}] spec could not be read: {reason}")
+    unreadable = len(registry.problems)
 
     built: Dict[str, Type[Crawler]] = {}
     for entry in registry.served:
@@ -204,4 +232,5 @@ def load_specs(root: Optional[Path]) -> Dict[str, Type[Crawler]]:
             built[entry.host] = build_crawler(entry.spec, Path(root), entry.host, entry.path)
         except Exception as error:
             logger.warning(f"\\[{entry.path}] spec could not be loaded: {error!r}")
+            unreadable += 1
     return built

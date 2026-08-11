@@ -17,6 +17,7 @@ from ...utils.event_lock import EventLock
 from ...utils.fts_store import FTSStore
 from ...utils.text_tools import normalize
 from ...utils.url_tools import normalize_url
+from . import spec_tier
 from .helper import (
     batch_import,
     create_crawler_info,
@@ -190,6 +191,14 @@ class Sources:
             "Sources by tier: %s",
             ", ".join(f"{count} {tier}" for tier, count in tally.items()),
         )
+        # Said out loud rather than left to the per-file warnings. A spec that failed to load
+        # leaves its host on the legacy crawler, which looks exactly like a host that never had
+        # one: an interpreter a minor version too old once hid 36 of them that way.
+        if spec_tier.unreadable:
+            logger.warning(
+                "%d spec(s) could not be read and their hosts fell back to a legacy crawler",
+                spec_tier.unreadable,
+            )
 
     def add_crawler(self, crawler: Type[Crawler]):
         # add to index if not available
