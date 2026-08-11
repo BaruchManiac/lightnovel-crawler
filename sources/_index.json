@@ -1,11 +1,11 @@
 {
-  "v": 1785764141,
+  "v": 1786473779,
   "app": {
     "windows": "https://go.bitanon.dev/lncrawl-windows",
     "linux": "https://go.bitanon.dev/lncrawl-linux",
-    "version": "4.13.1",
+    "version": "4.14.0",
     "home": null,
-    "pypi": "https://pypi.org/project/lightnovel-crawler/4.13.1/"
+    "pypi": "https://pypi.org/project/lightnovel-crawler/4.14.0/"
   },
   "rejected": {
     "http://boxnovel.org/": "No longer operational",
@@ -257,7 +257,6 @@
     "https://battwo.com/": "5955ede148817d13e8ef04255da4237d",
     "https://bednovel.com/": "8fa5bb4014a0aaab31786ac2dbbc333c",
     "https://blnovels.net/": "2b62a91a8d4d9497364bfecf4530c2a1",
-    "https://bookhamster.ru/": "56cf47825b16189855ee706f2762d59a",
     "https://booknet.com/": "c6b2d34f33d246ecbbf40115ffe8725c",
     "https://cangji.net/": "46b2be63c3cc33cfb57ae4af767b6734",
     "https://cclawtranslations.home.blog/": "669ec4e7ae359ad6e74f2f7e13592f9f",
@@ -297,7 +296,6 @@
     "https://fr.mtlnovels.com/": "560dfc4e6b4f4026553927f23eb1a9dd",
     "https://freemanga.me/": "da94a4e97f45ce849e72509864f105fb",
     "https://freewebnovel.com/": "060850d5752549642e6f723f7b03bb85",
-    "https://funbook.su/": "56cf47825b16189855ee706f2762d59a",
     "https://fuyu-novel.my.id/": "751db4e2d29b79ff035621db04345288",
     "https://genesistls.com/": "42802a18ec158aca5ef5545fd27c435f",
     "https://global.foxaholic.com/": "4a7f2dd3ebdb72eb35b9aa50cdebe390",
@@ -312,12 +310,10 @@
     "https://hyacinthbloom.com/": "1a5bed228319e32fe1f9ba769c722ace",
     "https://id.mtlnovel.com/": "560dfc4e6b4f4026553927f23eb1a9dd",
     "https://id.mtlnovels.com/": "560dfc4e6b4f4026553927f23eb1a9dd",
-    "https://ifreedom.su/": "56cf47825b16189855ee706f2762d59a",
     "https://illusia.com.br/": "3473a8c6b7d9c2848a99d74916bb603f",
     "https://inadequatetranslations.wordpress.com/": "6459128db0862ce2e581885367a822b1",
     "https://indowebnovel.id/": "9332f4727272ca2ff416a70a6cf71a71",
     "https://infinitenoveltranslations.net/": "379fa903b7a8a3057cc39c221973024c",
-    "https://isotls.com/": "cfbefe946bd2725fd6bea441389cd888",
     "https://ixdzs8.com/": "cbb7a70d622bdffa28b6c9c7fd6275f5",
     "https://ixdzs8.tw/": "cbb7a70d622bdffa28b6c9c7fd6275f5",
     "https://jaomix.ru/": "5d63949375d455e155e999523f16c7a3",
@@ -335,7 +331,6 @@
     "https://labnovel.ru/": "4c21c9e4166df23ce152c054821564b4",
     "https://ladasblmtl.blogspot.com/": "f2d244d167f7c62e0a889f330c84dd37",
     "https://lazybirdtranslations.wordpress.com/": "eda51d913d2c02b130b30b58d89db274",
-    "https://lazygirltranslations.com/": "1f1bdc059c09aa21e88aba9aba3e8546",
     "https://leafstudio.site/": "706f9da60a1b637f51f612266c6b112b",
     "https://lemontreetranslations.wordpress.com/": "2c7ab25d793c57135bddb24484c31fc7",
     "https://librarynovel.com/": "953012674362e39ca63ebdf32187feb8",
@@ -367,7 +362,6 @@
     "https://maplesantl.com/": "12b5d27e7b6485f2f43285066fd6e339",
     "https://meionovel.id/": "f74bd0aac01ea4c4dfe8dfd34ff9c562",
     "https://meionovels.com/": "f74bd0aac01ea4c4dfe8dfd34ff9c562",
-    "https://miraslation.net/": "9fa4170570f50eaa67f3deb2f6628b48",
     "https://mto.to/": "5955ede148817d13e8ef04255da4237d",
     "https://my.w.tt/": "c7a362a3c314755965c90d3399f62daa",
     "https://mydramanovel.com/": "778d528e412328260497daade6b0ced7",
@@ -422,7 +416,6 @@
     "https://pandanovel.co/": "c98577fef91275679f4c42584c906d4a",
     "https://peachpitting.com/": "7dfb1e3bdddd378665d14af31192d83a",
     "https://penguin-squad.com/": "32623d94a44b47efc7d00c8521bb7972",
-    "https://phoenixnovels.com.br/": "5179aa1214f9342752a50eb1fb9b882a",
     "https://pianmanga.com/": "f6e1b35b51110846f6c081d6d26c1576",
     "https://puretl.com/": "0a06d2a98cda9b3cb76bced19753fa18",
     "https://r18novel.com/": "bf61d3e34d97aebf7a38930c4269e6f9",
@@ -439,17 +432,13 @@
     "https://readonlinenovels.com/": "ecba53c371e28a036e4ae2befdfbd68a",
     "https://readwebnovels.net/": "f1e373edd51f45b653ce0b4aa88bf838",
     "https://reaperscans.com/": "f8daa513089b83880d8b56dc38daa625",
-    "https://renovels.org/": "15e082284f2636d7935abe5b4a214144",
     "https://requiemtls.com/": "7215dee3512e01adc9b02aea0c931bd8",
     "https://revengernovel.com/": "9bc138429d6b38c87e0fbfd9f4ee9175",
     "https://rewayat.club/": "7f45ff7a6bd632aa1059e2d571994f4e",
-    "https://rpgnoob.wordpress.com/": "d37ecb5158dd9515c7150ee270ae2807",
-    "https://rpgnovels.com/": "d37ecb5158dd9515c7150ee270ae2807",
     "https://rubymaybetranslations.com/": "c8a1283684bf0ab5c28179d1067ca086",
     "https://sammyandpassion.com/": "84323c23803baa07f4db8c24b8e2152d",
     "https://secondlifetranslations.com/": "e9b31ec6675b3c7aa40e5de602be4ccf",
     "https://shalvationtranslations.wordpress.com/": "6b98f85858ddf421d121cadf7658e89b",
-    "https://shanghaifantasy.com/": "4d76ceebea4dc7c655cf625c49729f72",
     "https://silvernekoscanlations.home.blog/": "cd770c3dec16c8258150f753574e607a",
     "https://skydemonorder.com/": "ca6ec52c4708a78679667b8953914766",
     "https://sleepytranslations.com/": "8a0629e1b468715f6c8a17551e59fb98",
@@ -468,7 +457,6 @@
     "https://truyenfull.today/": "46a23563b949f9502525b7f95383882d",
     "https://truyenfull.vn/": "46a23563b949f9502525b7f95383882d",
     "https://trxs.cc/": "d9638d761228f9620f622cea555a1f8b",
-    "https://tsundoku.com.br/": "73c06281b1cf247bfb1c23fd539b99dd",
     "https://turkcenoveloku.blogspot.com/": "f36bdb347d47d8be9f47b522fb3c271e",
     "https://tw.m.ixdzs.com/": "cbb7a70d622bdffa28b6c9c7fd6275f5",
     "https://vipnovel.com/": "b681bae9d672f066abdfd904b90903b8",
@@ -504,11 +492,10 @@
     "https://www.chickengege.org/": "7fcea3dc8ec80eaba1b14a9528ee66ac",
     "https://www.ddtxt8.cc/": "78b48929359c98fcc390c70e1df40718",
     "https://www.ddxss.cc/": "78b48929359c98fcc390c70e1df40718",
-    "https://www.divinedaolibrary.com/": "50d2d0e5c0239fb8c0a1031fe0102c1f",
     "https://www.f-w-o.com/": "553a1e4deba430c68189a6de0f997fa3",
     "https://www.fanfiction.net/": "14aaaf5ffaea6a3d3fb3bf29df292e6b",
     "https://www.fanmtl.com/": "ac58f2f9c01e3a844372f0ab4ff75244",
-    "https://www.fansmtl.com/": "ac58f2f9c01e3a844372f0ab4ff75244",
+    "https://www.fansmtl.com/": "91342afbe191ee00acce8634c299517d",
     "https://www.fictionpress.com/": "ed2e10ed53d06b93305e8a2425f9645d",
     "https://www.flying-lines.com/": "de68310ccc657297706130bb9b29e81f",
     "https://www.foxaholic.com/": "4a7f2dd3ebdb72eb35b9aa50cdebe390",
@@ -517,7 +504,6 @@
     "https://www.fringecapybara.com/": "79abef15af222c0e7ab747982173e106",
     "https://www.fuyuneko.org/": "8f7f72ace19c82386eb52e8bfba54f51",
     "https://www.inkitt.com/": "51b588db41a7eb83b304e8e9aa98d01b",
-    "https://www.isotls.com/": "cfbefe946bd2725fd6bea441389cd888",
     "https://www.kitenovel.com/": "6329b14af68285bc3e5152a108fb9e79",
     "https://www.lightnovelpub.org/": "0aac14d9790d3133284ad47865b626b6",
     "https://www.lightnovelreader.me/": "d62869404e4b5dd6b19addc645f7fd81",
@@ -526,7 +512,6 @@
     "https://www.machineslicedbread.xyz/": "10e3cf3270c83027d4ab4c8fe21e17af",
     "https://www.mangaread.org/": "08397dc360194ddba62e4be04d47de82",
     "https://www.meganovel.com/": "0fbb37ebbef1710adfd7583b599c6fb4",
-    "https://www.miraslation.net/": "9fa4170570f50eaa67f3deb2f6628b48",
     "https://www.mtlnovel.com/": "560dfc4e6b4f4026553927f23eb1a9dd",
     "https://www.mtlnovels.com/": "560dfc4e6b4f4026553927f23eb1a9dd",
     "https://www.mvlempyr.com/": "a2b914d92f26e020ea1ad327257502df",
@@ -542,7 +527,6 @@
     "https://www.novels.pl/": "5e962751f7928b75a7bbfd7a777fd629",
     "https://www.novelupdates.cc/": "ab5e6692cab4784c74023daa7036bc79",
     "https://www.novelupdates.com/": "2c529108c1fd6d790a05e51c02f9bb9c",
-    "https://www.oppatranslations.com/": "f57d2a47e8dbf9ad7d1cf03daf0c0947",
     "https://www.pandamanga.xyz/": "930238810d342d233fb3e2fcfb33088d",
     "https://www.piaotia.com/": "e2a0a1f66eec221866f52e14af342c50",
     "https://www.piaotian.com/": "e2a0a1f66eec221866f52e14af342c50",
@@ -580,8 +564,7 @@
     "https://www.wuxiaworld.com/": "6ef17917ddbd5d2bbea8b18cb55d5876",
     "https://www.xbanxia.com/": "93bff9ed386d79b0bd94389087c7d838",
     "https://xiaowaz.fr/": "907fbc5731ea50b9f70b298bc9b27626",
-    "https://xperimentalhamid.com/": "5ca9b9f985f2a58f9693b0f6b469ccf6",
-    "https://zetrotranslation.com/": "788c1ec8f8f03ce6b9f9d37432fd2f55"
+    "https://xperimentalhamid.com/": "5ca9b9f985f2a58f9693b0f6b469ccf6"
   },
   "crawlers": {
     "007db4ebaac30099fabd9ed0dd0bc76f": {
@@ -1593,27 +1576,6 @@
       ],
       "github_url": "https://github.com/lncrawl/lightnovel-crawler/blob/dev/sources/en/f/fanfiction.py"
     },
-    "15e082284f2636d7935abe5b4a214144": {
-      "version": 1775456139,
-      "md5": "d25a7287efb6318d24130adf2b13db03",
-      "file_path": "sources/ru/renovels.py",
-      "language": "ru",
-      "has_manga": false,
-      "can_login": false,
-      "can_search": false,
-      "has_mtl": false,
-      "request_rate_limit": 3.0,
-      "total_commits": 6,
-      "contributors": [
-        "CryZFix",
-        "dipu-bd"
-      ],
-      "id": "15e082284f2636d7935abe5b4a214144",
-      "base_urls": [
-        "https://renovels.org/"
-      ],
-      "github_url": "https://github.com/lncrawl/lightnovel-crawler/blob/dev/sources/ru/renovels.py"
-    },
     "1606e4d94f723a4d2f234ee60be3b89f": {
       "version": 1775063705,
       "md5": "90b37fe252034408438a1a60e73894a8",
@@ -1965,27 +1927,6 @@
         "https://www.nobadnovel.com/"
       ],
       "github_url": "https://github.com/lncrawl/lightnovel-crawler/blob/dev/sources/en/n/nobadnovel.py"
-    },
-    "1f1bdc059c09aa21e88aba9aba3e8546": {
-      "version": 1775148284,
-      "md5": "b5715b7c6b247623e76ff3c49a0445b0",
-      "file_path": "sources/en/l/lazygirltranslations.py",
-      "language": "en",
-      "has_manga": false,
-      "can_login": false,
-      "can_search": false,
-      "has_mtl": false,
-      "request_rate_limit": 3.0,
-      "total_commits": 16,
-      "contributors": [
-        "dipu-bd",
-        "idMysteries"
-      ],
-      "id": "1f1bdc059c09aa21e88aba9aba3e8546",
-      "base_urls": [
-        "https://lazygirltranslations.com/"
-      ],
-      "github_url": "https://github.com/lncrawl/lightnovel-crawler/blob/dev/sources/en/l/lazygirltranslations.py"
     },
     "1f3b1983fc9296a5a57ed7abd5e59546": {
       "version": 1775456139,
@@ -3790,27 +3731,6 @@
       ],
       "github_url": "https://github.com/lncrawl/lightnovel-crawler/blob/dev/sources/ru/labnovel.py"
     },
-    "4d76ceebea4dc7c655cf625c49729f72": {
-      "version": 1775456139,
-      "md5": "a7bdaf55aa6e4e73e997ce553d098cf3",
-      "file_path": "sources/en/s/shanghaifantasy.py",
-      "language": "en",
-      "has_manga": false,
-      "can_login": false,
-      "can_search": false,
-      "has_mtl": false,
-      "request_rate_limit": 3.0,
-      "total_commits": 6,
-      "contributors": [
-        "CryZFix",
-        "dipu-bd"
-      ],
-      "id": "4d76ceebea4dc7c655cf625c49729f72",
-      "base_urls": [
-        "https://shanghaifantasy.com/"
-      ],
-      "github_url": "https://github.com/lncrawl/lightnovel-crawler/blob/dev/sources/en/s/shanghaifantasy.py"
-    },
     "4df48cb07890d59984ee92a6a2f8caba": {
       "version": 1775063705,
       "md5": "6c65499eacbfae04c606aa93f13f3c3a",
@@ -3919,47 +3839,6 @@
         "https://novelsala.com/"
       ],
       "github_url": "https://github.com/lncrawl/lightnovel-crawler/blob/dev/sources/en/n/novelsala.py"
-    },
-    "50d2d0e5c0239fb8c0a1031fe0102c1f": {
-      "version": 1775456139,
-      "md5": "d273eb0a06387c980ab5d35ddd921e73",
-      "file_path": "sources/en/d/divinedaolibrary.py",
-      "language": "en",
-      "has_manga": false,
-      "can_login": false,
-      "can_search": false,
-      "has_mtl": false,
-      "request_rate_limit": 3.0,
-      "total_commits": 7,
-      "contributors": [
-        "dipu-bd"
-      ],
-      "id": "50d2d0e5c0239fb8c0a1031fe0102c1f",
-      "base_urls": [
-        "https://www.divinedaolibrary.com/"
-      ],
-      "github_url": "https://github.com/lncrawl/lightnovel-crawler/blob/dev/sources/en/d/divinedaolibrary.py"
-    },
-    "5179aa1214f9342752a50eb1fb9b882a": {
-      "version": 1775148284,
-      "md5": "ef9843849b1ce0628e74a52133918e52",
-      "file_path": "sources/pt/phoenixnovels.py",
-      "language": "pt",
-      "has_manga": false,
-      "can_login": false,
-      "can_search": true,
-      "has_mtl": false,
-      "request_rate_limit": 3.0,
-      "total_commits": 5,
-      "contributors": [
-        "dipu-bd",
-        "guiga1112"
-      ],
-      "id": "5179aa1214f9342752a50eb1fb9b882a",
-      "base_urls": [
-        "https://phoenixnovels.com.br/"
-      ],
-      "github_url": "https://github.com/lncrawl/lightnovel-crawler/blob/dev/sources/pt/phoenixnovels.py"
     },
     "51b588db41a7eb83b304e8e9aa98d01b": {
       "version": 1775148284,
@@ -4107,29 +3986,6 @@
         "https://novelfire.net/"
       ],
       "github_url": "https://github.com/lncrawl/lightnovel-crawler/blob/dev/sources/en/n/novelfire.py"
-    },
-    "56cf47825b16189855ee706f2762d59a": {
-      "version": 1775456139,
-      "md5": "e73c434bf4f38b2bc3fc5888e689e54f",
-      "file_path": "sources/ru/ifreedom.py",
-      "language": "ru",
-      "has_manga": false,
-      "can_login": false,
-      "can_search": false,
-      "has_mtl": false,
-      "request_rate_limit": 3.0,
-      "total_commits": 8,
-      "contributors": [
-        "CryZFix",
-        "dipu-bd"
-      ],
-      "id": "56cf47825b16189855ee706f2762d59a",
-      "base_urls": [
-        "https://ifreedom.su/",
-        "https://bookhamster.ru/",
-        "https://funbook.su/"
-      ],
-      "github_url": "https://github.com/lncrawl/lightnovel-crawler/blob/dev/sources/ru/ifreedom.py"
     },
     "572c9e7726855af8c82c96eae95bdbce": {
       "version": 1775148284,
@@ -5259,27 +5115,6 @@
       ],
       "github_url": "https://github.com/lncrawl/lightnovel-crawler/blob/dev/sources/en/m/myoniyonitrans.py"
     },
-    "73c06281b1cf247bfb1c23fd539b99dd": {
-      "version": 1785677509,
-      "md5": "74088d7c04d23ee46b3eb63025f479a9",
-      "file_path": "sources/pt/tsundoku.py",
-      "language": "pt",
-      "has_manga": false,
-      "can_login": false,
-      "can_search": true,
-      "has_mtl": false,
-      "request_rate_limit": 3.0,
-      "total_commits": 13,
-      "contributors": [
-        "dipu-bd",
-        "idMysteries"
-      ],
-      "id": "73c06281b1cf247bfb1c23fd539b99dd",
-      "base_urls": [
-        "https://tsundoku.com.br/"
-      ],
-      "github_url": "https://github.com/lncrawl/lightnovel-crawler/blob/dev/sources/pt/tsundoku.py"
-    },
     "7410d3acf5baa267ecb42773f840bafd": {
       "version": 1775148284,
       "md5": "1a9c9daf7bba4ab4d42fb36a22a9cfbc",
@@ -5454,31 +5289,6 @@
         "https://usefulnovel.com/"
       ],
       "github_url": "https://github.com/lncrawl/lightnovel-crawler/blob/dev/sources/en/u/usefulnovel.py"
-    },
-    "788c1ec8f8f03ce6b9f9d37432fd2f55": {
-      "version": 1775456139,
-      "md5": "4940b22e19e2fa5fb395cb0cc9d7492d",
-      "file_path": "sources/en/z/zetrotranslation.py",
-      "language": "en",
-      "has_manga": false,
-      "can_login": false,
-      "can_search": true,
-      "has_mtl": false,
-      "request_rate_limit": 3.0,
-      "total_commits": 86,
-      "contributors": [
-        "SirGryphin",
-        "dipu-bd",
-        "idMysteries",
-        "kuwoyuki",
-        "mchubby",
-        "yudilee"
-      ],
-      "id": "788c1ec8f8f03ce6b9f9d37432fd2f55",
-      "base_urls": [
-        "https://zetrotranslation.com/"
-      ],
-      "github_url": "https://github.com/lncrawl/lightnovel-crawler/blob/dev/sources/en/z/zetrotranslation.py"
     },
     "78b48929359c98fcc390c70e1df40718": {
       "version": 1784829411,
@@ -6960,31 +6770,6 @@
         "https://www.wuxia.blog/"
       ],
       "github_url": "https://github.com/lncrawl/lightnovel-crawler/blob/dev/sources/en/w/wuxiablog.py"
-    },
-    "9fa4170570f50eaa67f3deb2f6628b48": {
-      "version": 1775063705,
-      "md5": "1c23126aa3595eba8e2692ede28b5d26",
-      "file_path": "sources/en/m/miraslation.py",
-      "language": "en",
-      "has_manga": false,
-      "can_login": false,
-      "can_search": false,
-      "has_mtl": false,
-      "request_rate_limit": 3.0,
-      "total_commits": 66,
-      "contributors": [
-        "AncientCatz",
-        "SirGryphin",
-        "dipu-bd",
-        "idMysteries",
-        "yudilee"
-      ],
-      "id": "9fa4170570f50eaa67f3deb2f6628b48",
-      "base_urls": [
-        "https://miraslation.net/",
-        "https://www.miraslation.net/"
-      ],
-      "github_url": "https://github.com/lncrawl/lightnovel-crawler/blob/dev/sources/en/m/miraslation.py"
     },
     "a03224c0dcce86ee958513dc4a3738e0": {
       "version": 1785613888,
@@ -8651,30 +8436,6 @@
       ],
       "github_url": "https://github.com/lncrawl/lightnovel-crawler/blob/dev/sources/en/s/stabbingwithasyringe.py"
     },
-    "cfbefe946bd2725fd6bea441389cd888": {
-      "version": 1775063705,
-      "md5": "99a2e261f5c8d49bd8c7551f740d32a7",
-      "file_path": "sources/en/i/isotls.py",
-      "language": "en",
-      "has_manga": false,
-      "can_login": false,
-      "can_search": false,
-      "has_mtl": false,
-      "request_rate_limit": 3.0,
-      "total_commits": 66,
-      "contributors": [
-        "SirGryphin",
-        "dipu-bd",
-        "idMysteries",
-        "yudilee"
-      ],
-      "id": "cfbefe946bd2725fd6bea441389cd888",
-      "base_urls": [
-        "https://isotls.com/",
-        "https://www.isotls.com/"
-      ],
-      "github_url": "https://github.com/lncrawl/lightnovel-crawler/blob/dev/sources/en/i/isotls.py"
-    },
     "d138992787c95ecbbcb37bf2aada1379": {
       "version": 1784829411,
       "md5": "2447e832882352142833392a91ecf1bd",
@@ -8761,30 +8522,6 @@
         "https://wujizun.com/"
       ],
       "github_url": "https://github.com/lncrawl/lightnovel-crawler/blob/dev/sources/en/w/wujizun.py"
-    },
-    "d37ecb5158dd9515c7150ee270ae2807": {
-      "version": 1775456139,
-      "md5": "25e7160db670fd4d7dbde03480a46895",
-      "file_path": "sources/en/r/rpgnovels.py",
-      "language": "en",
-      "has_manga": false,
-      "can_login": false,
-      "can_search": false,
-      "has_mtl": false,
-      "request_rate_limit": 3.0,
-      "total_commits": 76,
-      "contributors": [
-        "AncientCatz",
-        "SirGryphin",
-        "dipu-bd",
-        "yudilee"
-      ],
-      "id": "d37ecb5158dd9515c7150ee270ae2807",
-      "base_urls": [
-        "https://rpgnovels.com/",
-        "https://rpgnoob.wordpress.com/"
-      ],
-      "github_url": "https://github.com/lncrawl/lightnovel-crawler/blob/dev/sources/en/r/rpgnovels.py"
     },
     "d409de359d1171a3d722866fba7f2dfa": {
       "version": 1775456139,
@@ -9400,27 +9137,6 @@
       ],
       "github_url": "https://github.com/lncrawl/lightnovel-crawler/blob/dev/sources/en/n/novelarrow.py"
     },
-    "e3dde6b1f9d156edfc0239db6215d05b": {
-      "version": 1775456139,
-      "md5": "2dadc8f5062a9376063a126714b5da14",
-      "file_path": "sources/en/o/oppatranslations.py",
-      "language": "en",
-      "has_manga": false,
-      "can_login": false,
-      "can_search": false,
-      "has_mtl": false,
-      "request_rate_limit": 3.0,
-      "total_commits": 13,
-      "contributors": [
-        "amritoo",
-        "dipu-bd"
-      ],
-      "id": "e3dde6b1f9d156edfc0239db6215d05b",
-      "base_urls": [
-        "https://www.oppatranslations.com/"
-      ],
-      "github_url": "https://github.com/lncrawl/lightnovel-crawler/blob/dev/sources/en/o/oppatranslations.py"
-    },
     "e3f7698add308802aa14e4c56e3ebadf": {
       "version": 1775148284,
       "md5": "f4fbe0b6b1517a588210d93cac79baa8",
@@ -10021,29 +9737,6 @@
         "https://justatranslatortranslations.com/"
       ],
       "github_url": "https://github.com/lncrawl/lightnovel-crawler/blob/dev/sources/en/j/justatrans.py"
-    },
-    "f57d2a47e8dbf9ad7d1cf03daf0c0947": {
-      "version": 1775063705,
-      "md5": "8475e84a8076868c576848392a98420b",
-      "file_path": "sources/en/o/oppatrans.py",
-      "language": "en",
-      "has_manga": false,
-      "can_login": false,
-      "can_search": false,
-      "has_mtl": false,
-      "request_rate_limit": 3.0,
-      "total_commits": 68,
-      "contributors": [
-        "AncientCatz",
-        "SirGryphin",
-        "dipu-bd",
-        "yudilee"
-      ],
-      "id": "f57d2a47e8dbf9ad7d1cf03daf0c0947",
-      "base_urls": [
-        "https://www.oppatranslations.com/"
-      ],
-      "github_url": "https://github.com/lncrawl/lightnovel-crawler/blob/dev/sources/en/o/oppatrans.py"
     },
     "f60aa7c971bb0335d2c33a1c2fdb703b": {
       "version": 1775456139,
@@ -10736,7 +10429,7 @@
       "type": "User",
       "user_view_type": "public",
       "site_admin": false,
-      "contributions": 4621
+      "contributions": 4630
     },
     "divyam-gawde": {
       "login": "divyam-gawde",
